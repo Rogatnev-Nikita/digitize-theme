@@ -1,9 +1,11 @@
 # html-theme-1
 
-Bootstrap
-Bootstrap v3.3.5 (http://getbootstrap.com)
-Copyright 2011-2015 Twitter, Inc.
-Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+<strong>Bootstrap</strong><br>
+Bootstrap v3.3.5<br>
+Copyright © Twitter, Inc.<br>
+Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)<br>
 
-normalize.css
-normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
+<strong>Normalize.css</strong><br>
+normalize.css v3.0.3<br>
+Copyright © Nicolas Gallagher and Jonathan Neal<br>
+Licensed under MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
