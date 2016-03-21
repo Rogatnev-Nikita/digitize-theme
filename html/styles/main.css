@@ -16,19 +16,268 @@ Tags:
 /* ------------------------------------------ */
 /*  01 - General & Basic Styles  */
 /*  02 - Header  */
-/*  03 - about  */
-/*  04 - service  */
+/*  03 - Slider  */
+/*  04 - Services  */
 /*  05 - work  */
 /*  06 - team  */
 /*  07 - join team  */
 /*  08 - blog  */
 /*  09 - contact  */
 
-html {
-    font-family: sans-serif;
-}
 
+
+
+/*  01 - General & Basic Styles  */
 body {
+    font: 16px/1.5 sans-serif;
+    color: black;
+}
+ul,
+ol{
     margin: 0;
     padding: 0;
+}
+a,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+
+.main-header,
+section,
+.main-footer{
+    outline:1px solid red;
+    padding: 40px 0;
+}
+/*  01 - General & Basic Styles end  */
+
+
+
+
+
+
+
+
+
+/*  02 - Header  */
+.main-header{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    top: 0;
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+}
+.main-header__logo{
+    width: 100%;
+    font-size: 0;
+    display:block;
+    
+    outline: 1px solid blue;
+}
+.main-header__logo-link{
+    max-width: 300px;
+    width: 100%;
+    display:block;
+    margin: 0 auto;
+    
+    outline: 1px solid red;
+}
+.main-header__logo-image{
+    width: 100%;
+}
+.main-header__menu{
+    width: 100%;
+    outline: 1px solid blue;
+}
+.main-header__menu-container{
+    width: 100%;
+    display: block;
+    list-style-type: none;
+}
+.main-header__menu-item{
+    width:100%;
+    text-transform: capitalize;
+    line-height: 1;
+}
+.main-header__menu-link{
+    display: block;
+    box-sizing: border-box;
+    width:100%;
+    margin: 0;
+    padding: 15px 10px;
+    text-align: center;
+}
+.main-header__menu-link--active{
+
+}
+.main-header__menu-link--rounded{
+    border: 1px solid black;
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 767px) {
+    .main-header{
+        position: fixed;
+        display: flex;
+        max-height: 120px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+    }
+    .main-header__logo{
+        width: 25%;
+    }
+    .main-header__logo-link{
+        margin: 0;
+    }
+    .main-header__menu{
+        width: 75%;
+    }
+    .main-header__menu-container{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height: 120px;
+        
+        outline: 1px solid green;
+    }
+    .main-header__menu-item{
+        width: auto;
+    }
+    .main-header__menu-link{
+        padding: 5px 15px;
+        display: inline;
+    }
+    .main-header__menu-link:first-child,
+    .main-header__menu-link:last-child{
+        margin: 0;
+    }
+    .main-header__menu-link--rounded{
+        border-radius: 5px;
+    }
+}
+@media (min-width: 1400px) {
+    .main-header__menu{
+        width: 50%;
+    }
+}
+/*  02 - Header end  */
+
+
+
+
+/*  03 - Slider  */
+.slider{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: grey;
+}
+.slider__item{
+    border: 1px solid black;   
+    text-align: center;
+}
+.slider__heading{}
+.slider__text{}
+
+.slider__btn{}
+.slider__btn--small{}
+.slider__btn--medium{}
+.slider__btn--large{}
+
+.slider__navigation{
+    display: block;    
+}
+.slider__navigation-dot{}
+
+
+
+
+@media (min-width: 767px) {
+    .slider{
+        margin-top: 120px;
+    }
+}
+/*  03 - Slider end  */
+
+
+
+
+
+
+
+
+
+
+
+/*  04- Services  */
+.services{}
+.services__item{}
+
+.services__item--intro{}
+.services__item--intro .services__heading{}
+.services__item--intro.services__text{}
+
+.services__heading{}
+.services__text{}
+.services__btn{}
+
+.services__btn--small{}
+.services__btn--medium{}
+.services__btn--large{}
+/*  04- Services end  */
+
+
+
+
+
+
+
+
+
+.main-footer{
+    padding: 40px 0;
+    background-color: grey;
+}
+
+
+
+
+/* Large desktops and laptops */
+media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+media (max-width: 480px) {
+
 }
