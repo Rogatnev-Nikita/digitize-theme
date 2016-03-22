@@ -351,7 +351,7 @@ a:active{
 .services__item{
     display: block;
     box-sizing: border-box;
-    padding: 35px 2%;
+    padding: 35px 10px;
     text-align: center;    
     border-right: 1px solid grey;
 }
@@ -362,9 +362,16 @@ a:active{
 
 }
 .services__item--intro{
+    border: 0;
+    box-sizing: border-box;
     background: rgba(0, 0, 255, 0.2);
 }
-.services__item--intro .services__heading{}
+.services__item--intro .services__heading:after{
+    dosplay: block;
+    width: 60px;
+    height:3px;
+    border:1px solid red;
+}
 .services__item--intro .services__text{}
 
 .services__image{
@@ -384,8 +391,6 @@ a:active{
 
 @media (min-width: 767px) {
     .services{
-        width: 80%;
-        margin: 0 auto;
         padding: 60px 0;
         display: flex;
         flex-direction: row;
@@ -396,16 +401,25 @@ a:active{
     }
     .services__item{
         flex: 1 20%;
-        padding: 50px 2% 45px;
+        padding: 50px 10px 45px;
     }
     .services__item--intro{
         flex: 1 100%;   
-        box-sizing: border-box;
         margin-bottom: 60px;
+        padding: 60px 2%;
+    }
+}
+@media (min-width: 991px) {
+    .services{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .services__item--intro{
         padding: 60px 20%;
     }
 }
 @media (min-width: 1400px) {
+
 }
 /*  04- Services end  */
 
