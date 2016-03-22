@@ -4,21 +4,24 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 
 <h4>Features</h4>
 <ul>
+<li>Minimal</li>
 <li>Universal & Multi-purpose</li>
-<li>xx predefined pages</li>
-<li>Well-documented</li>
-<li>Multiple portfolio options</li>
-<li>HTML5</li>
 <li>Subtle CSS3 Animations</li>
+<li>Dark and light modes</li>
+<li>Multiple portfolio options</li>
+<li>HTML5 & CSS3</li>
+<li>Well-documented</li>
 <li>Fully responsive</li>
 <li>Google Fonts Support</li>
 <li>Working PHP Contact Form</li>
-<li>Blog pages</li>
-<li>Minimal</li>
-<li>Dark and light modes</li>
-<li>Product page</li>
-<li>Error page</li>
 </ul>
+
+<h4>Pages</h4>
+<li>Home page - index.html</li>
+<li>Blog page - blog.html</li>
+<li>Product page - product.html</li>
+<li>Typography page - typography.html</li>
+<li>Error page - 404.html</li>
 
 <h4>Summary</h4>
 <ul>
