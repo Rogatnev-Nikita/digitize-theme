@@ -35,18 +35,24 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 normalize.css v4.0.0<br>
 Copyright © Nicolas Gallagher and Jonathan Neal<br>
 Licensed under MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
-
+<ul>
+<li>
 <strong>Font Awesome</strong><br>
 font-awesome.min.css v4.5.0<br>
 Copyright © Dave Gandy<br>
 Licensed under MIT (http://fontawesome.io/license/)
-
+</li>
+<li>
 <strong>jQuery</strong><br>
 jquery.min.js v3.0.0-beta1<br>
 Licensed under MIT (https://jquery.org/license/)
-
+</li>
+<li>
 <strong>jQuery</strong><br>
 jquery.scrollTo.min.js v2.1.2<br>
 Licensed under MIT (https://github.com/flesler/jquery.scrollTo/blob/master/LICENSE)
-
+</li>
+<li>
 <strong>Fonts by Google Webfonts</strong>
+</li>
+</ul>
