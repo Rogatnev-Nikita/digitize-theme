@@ -21,14 +21,15 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 </ul>
 
 <h4>Summary</h4>
-High Resolution: Yes<br>
-Compatible Browsers: IE11, Firefox, Safari, Opera, Chrome, Edge<br>
-Files Included: PHP Files, HTML Files, CSS Files, JS Files<br>
-Columns: 4+<br>
-Documentation: Well Documented<br>
-Layout: Responsive<br>
-Tags: agency, creative, designer, freelancer, grid, lightbox, masonry, minimal, mobile, modern, photographer, portfolio, slider, universal
-
+<ul>
+<li>High Resolution: Yes</li>
+<li>Compatible Browsers: IE11, Firefox, Safari, Opera, Chrome, Edge</li>
+<li>Files Included: PHP Files, HTML Files, CSS Files, JS Files</li>
+<li>Columns: 4+</li>
+<li>Documentation: Well Documented</li>
+<li>Layout: Responsive</li>
+<li>Tags: agency, creative, designer, freelancer, grid, lightbox, masonry, minimal, mobile, modern, photographer, portfolio, slider, universal</li>
+</ul>
 <h4>Credits</h4>
 <strong>Normalize.css</strong><br>
 normalize.css v4.0.0<br>
