@@ -95,7 +95,7 @@ a:active{
     align-content: space-between;
     flex-wrap: wrap;
     color: white;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.1);
 }
 .main-header__logo{
     font-size: 0;
@@ -170,7 +170,7 @@ a:active{
 }
 
 /* Landscape phones and portrait tablets */
-@media (min-width: 767px) {
+@media (min-width: 960px) {
     .main-header{
         position: fixed;
         height: 77px;
@@ -178,11 +178,13 @@ a:active{
         justify-content: space-between;
         align-content: space-between;
         flex-wrap: nowrap;
+        background: rgba(0, 0, 0, 0.4);
     }
     .main-header__logo{
-        width: 25%;
-        flex: 1 25%;
+        min-width: 300px;
+        flex: 1;
         height: 77px;
+        outline: 1px solid red;
     }
     .main-header__logo-link{
         margin: 0;
@@ -198,7 +200,7 @@ a:active{
         display: block;
     }
     .main-header__menu-item-list{
-        flex: 1 50%;
+        flex: 2 50%;
         display: inline-flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -246,8 +248,8 @@ a:active{
         display: none;
     }
     .main-header__menu-item-list{
-        flex: 1 50%;
-        justify-content: space-between;
+        flex: 1 100px;
+        justify-content: space-around;
         align-content: space-between;
         
         outline: 1px solid green;
@@ -306,7 +308,7 @@ a:active{
     cursor: pointer;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 960px) {
     .slider{
         height: 100vh;
         min-height: 300px;
@@ -315,7 +317,6 @@ a:active{
         display: flex;
         align-items: center;
         align-content: center;
-        
         background-size: cover;
         background-attachment: fixed;
     }
@@ -432,7 +433,7 @@ a:active{
 .services__btn--large{}
 
 
-@media (min-width: 767px) {
+@media (min-width: 960px) {
     .services{
         padding: 60px 0;
         display: flex;
@@ -482,7 +483,7 @@ a:active{
     padding: 60px 10%;
     background: url(../images/partners/partners.png);
     background-repeat: repeat;
-    
+    background-attachment: fixed;
     outline: 1px solid red;    
 }
 
@@ -491,7 +492,7 @@ a:active{
 
 
 
-@media (min-width: 767px) {
+@media (min-width: 960px) {
     .partners{
         display: flex;
         flex-direction: row;
@@ -516,7 +517,7 @@ a:active{
     background-color: grey;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 960px) {
     .main-footer{
 
     }
@@ -571,7 +572,7 @@ media (min-width: 768px) and (max-width: 991px) {
 }
 
 /* Landscape phones and portrait tablets */
-media (max-width: 767px) {
+media (max-width: 960px) {
 
 }
 
