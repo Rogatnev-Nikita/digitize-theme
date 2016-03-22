@@ -17,11 +17,13 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 </ul>
 
 <h4>Pages</h4>
+<ul>
 <li>Home page - index.html</li>
 <li>Blog page - blog.html</li>
 <li>Product page - product.html</li>
 <li>Typography page - typography.html</li>
 <li>Error page - 404.html</li>
+</ul>
 
 <h4>Summary</h4>
 <ul>
