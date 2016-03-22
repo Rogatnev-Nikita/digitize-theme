@@ -30,12 +30,15 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 <li>Layout: Responsive</li>
 <li>Tags: agency, creative, designer, freelancer, grid, lightbox, masonry, minimal, mobile, modern, photographer, portfolio, slider, universal</li>
 </ul>
+
 <h4>Credits</h4>
+<ul>
+<li>
 <strong>Normalize.css</strong><br>
 normalize.css v4.0.0<br>
 Copyright © Nicolas Gallagher and Jonathan Neal<br>
 Licensed under MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
-<ul>
+</li>
 <li>
 <strong>Font Awesome</strong><br>
 font-awesome.min.css v4.5.0<br>
