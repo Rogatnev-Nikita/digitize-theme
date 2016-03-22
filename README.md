@@ -51,7 +51,7 @@ jquery.min.js v3.0.0-beta1<br>
 Licensed under MIT (https://jquery.org/license/)
 </li>
 <li>
-<strong>jQuery</strong><br>
+<strong>ScrollTo</strong><br>
 jquery.scrollTo.min.js v2.1.2<br>
 Licensed under MIT (https://github.com/flesler/jquery.scrollTo/blob/master/LICENSE)
 </li>
