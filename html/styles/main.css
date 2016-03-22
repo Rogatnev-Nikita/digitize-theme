@@ -99,6 +99,7 @@ a:active{
     margin:0;
     padding: 0;
     background: rgba(0, 0, 0, 0.4);
+    z-index:2;
 }
 .main-header__logo{
     width: 193px;
@@ -231,6 +232,7 @@ a:active{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    z-index:1;
 }
 .slider__controls{
     display: none;
@@ -288,11 +290,20 @@ a:active{
 
 .slider__scrollto-icon{
     display: block;
-    width: 26px;
-    height: 44px;
+    width: 30px;
+    height: 50px;
     background-repeat: no-repeat;
-    background-image: url(../images/slider/slider__scrollto-icon.png);
 }
+.slider__scrollto-icon--black{
+    background-image: url(../images/icons/slider__scrollto-icon-black.png);
+}
+.slider__scrollto-icon--white{
+    background-image: url(../images/icons/slider__scrollto-icon-white.png);
+}
+
+
+
+
 
 @media (min-width: 960px) {
     .slider{
@@ -351,6 +362,8 @@ a:active{
     flex-wrap: wrap;
     align-content: center;
     box-sizing: border-box;
+    position: relative;
+    z-index:1;
 }
 .services__item{
     flex: 1 100%;
@@ -447,7 +460,8 @@ a:active{
     background: url(../images/partners/partners.png);
     background-repeat: repeat;
     background-attachment: fixed;
-    outline: 1px solid red;    
+    outline: 1px solid red;
+    z-index:1;
 }
 
 .partners__item{}
@@ -503,7 +517,15 @@ a:active{
 
 
 
-
+/* Retina-specific stuff here */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .slider__scrollto-icon--black{
+        background-image: url(../images/icons/slider__scrollto-icon-black-x2.png);
+    }
+    .slider__scrollto-icon--white{
+        background-image: url(../images/icons/slider__scrollto-icon-white-x2.png);
+    }
+}
 
 
 
