@@ -89,38 +89,51 @@ a:active{
     margin:0;
     padding: 0;
     top: 0;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
     color: white;
-    
     background: rgba(0, 0, 0, 0.4);
 }
 .main-header__logo{
-    width: 100%;
     font-size: 0;
-    display: block;
+    flex: 1 50%;
 }
 .main-header__logo-link{
     max-width: 300px;
     width: 100%;
     display: block;
     margin: 0 auto;
-    
-    outline: 1px solid red;
 }
 .main-header__logo-image{
     width: 100%;
 }
 .main-header__menu{
-    width: 100%;
-    outline: 1px solid blue;
+    flex: 1 50%;
 }
-.main-header__menu-container{
+.main-header__menu-item-list{
     width: 100%;
     display: block;
     list-style-type: none;
+    flex: 3 100%;
+}
+.main-header__manu-item-list--closed{
+    display: none;
+}
+.main-header__navigation{
+    font-size: 50px;
+    text-align: right;
+    margin-right:10%;
+    display: none;
+}
+.main-header__navigation--active{
+    display: block;
 }
 .main-header__menu-item{
     width:100%;
+    min-width: 120px;
     text-transform: capitalize;
     line-height: 1;
 }
@@ -160,34 +173,44 @@ a:active{
 @media (min-width: 767px) {
     .main-header{
         position: fixed;
-        display: flex;
-        max-height: 120px;
+        height: 77px;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
         align-content: space-between;
+        flex-wrap: nowrap;
     }
     .main-header__logo{
         width: 25%;
+        flex: 1 25%;
+        height: 77px;
     }
     .main-header__logo-link{
         margin: 0;
     }
-    .main-header__menu{
-        width: 75%;
+    .main-header__logo-image{
+        width: auto;
+        height: 77px;
     }
-    .main-header__menu-container{
+    .main-header__menu{
+        display: none;
+    }
+    .main-header__manu-item-list--closed{
+        display: block;
+    }
+    .main-header__menu-item-list{
+        flex: 1 50%;
         display: inline-flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
         align-content: center;
-        width: 100%;
-        height: 120px;
-        
-        outline: 1px solid green;
-    }
+        flex-wrap: wrap;
+        outline: 1px solid red;
+    }   
+    .main-header__navigation{
+        display: none;
+    }    
     .main-header__menu-item{
         width: auto;
     }
@@ -209,17 +232,26 @@ a:active{
 }
 @media (min-width: 1400px) {
     .main-header{
+        position: fixed;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: nowrap;
         width: 100%;
         margin: 0 auto;
         padding: 0 10%;
         box-sizing: border-box;
     }
-    .main-header__logo{
-        width: 25%;
-    }
     .main-header__menu{
-        width: 55%;
+        display: none;
     }
+    .main-header__menu-item-list{
+        flex: 1 50%;
+        justify-content: space-between;
+        align-content: space-between;
+        
+        outline: 1px solid green;
+    }  
 }
 /*  02 - Header end  */
 
@@ -233,8 +265,7 @@ a:active{
     background: url(../images/slider/slider.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
-
+    background-size: cover;
 }
 .slider__item{
     width:100%;
@@ -290,8 +321,20 @@ a:active{
     }
     .slider__controls{
         width: 10%;
-        height: 100%;
-        background: rgba(0, 255, 0, 0.1);
+        height: 100vh;
+        margin-top: -120px;
+        text-align: center;
+        color: white;
+    }
+    .slider__controls:hover{
+        background: rgba(0, 0, 0, 0.1);
+    }
+    .slider__controls:active{
+        background: rgba(0, 0, 0, 0.2);
+    }
+    .slider__controls-icon{
+        margin-top: 50vh;
+        font-size: 80px;
     }
     .slider__item{
         padding: 60px 0 70px;
@@ -374,8 +417,8 @@ a:active{
 }
 .services__item--intro .services__text{}
 
-.services__image{
-    width: 150px;
+.services__icon{
+    font-size: 80px;
     max-width: 100%;
     max-height: 150px;
     margin-bottom: 20px;
