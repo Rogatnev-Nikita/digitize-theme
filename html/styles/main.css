@@ -72,14 +72,51 @@ a:active{
    width: 100%;
    height: auto;
 }
-body > section{
-    overflow:hidden;
-}
 /*  01 - General & Basic Styles end  */
 
 
 
+/*  Scroll btn   */
+.scroll-to-next{
+    display: none;
+    position: fixed;
+    left: 50%;
+    margin-left: -13px;
+    -webkit-animation: scrollto-pulse 1s infinite;
+    animation: scrollto-pulse 1s infinite;
+    z-index: 3;
+}
+.scroll-to-next__icon{
+    display: block;
+    width: 30px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.scroll-to-next__icon--black{
+    background-image: url(../images/icons/slider__scrollto-icon-black.png);
+}
+.scroll-to-next__icon--white{
+    background-image: url(../images/icons/slider__scrollto-icon-white.png);
+}
+@media (min-width: 960px) {
+    .scroll-to-next{
+        display: block;
+    }
+}
 
+/* Retina-specific stuff here */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .scroll-to-next__icon--black{
+        background-image: url(../images/icons/slider__scrollto-icon-black-x2.png);
+    }
+    .scroll-to-next__icon--white{
+        background-image: url(../images/icons/slider__scrollto-icon-white-x2.png);
+    }
+}
+
+@-webkit-keyframes scrollto-pulse {from {bottom: 20px;}to {bottom: 30px;}}
+@keyframes scrollto-pulse {from {bottom: 20px;}to {bottom: 30px;}}
+/*  Scroll btn end  */
 
 
 /*  02 - Header  */
@@ -92,14 +129,14 @@ body > section{
     max-width: 100%;
     margin:0;
     padding: 0 2vh;
-    z-index:2;
+    z-index:4;
     
     outline: 1px solid blue;
 }
 .main-header__logo{
     width:50%;
     font-size: 0;
-    z-index: 3;
+    z-index:4;
 }
 .main-header__logo-image{
     width: 193px;
@@ -110,7 +147,7 @@ body > section{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    z-index: 3;
+    z-index:4;
 }
 .main-header__navigation-item{
     display: none;
@@ -131,12 +168,12 @@ body > section{
     max-height: 100%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
-    z-index: 2;
     color: white;
     display: flex;
     list-style-type: none;
     flex-direction: column;
     flex-wrap: nowrap;
+    z-index: 3;
 }
 .main-header__menu--closed{
     display: none;
@@ -271,27 +308,6 @@ body > section{
     color: black;
     cursor: pointer;
 }
-.slider__scrollto{
-    display: none;
-    position: absolute;
-    left: 50%;
-    margin-left: -13px;
-    -webkit-animation: scrollto-pulse 1s infinite;
-    animation: scrollto-pulse 1s infinite;
-}
-
-.slider__scrollto-icon{
-    display: block;
-    width: 30px;
-    height: 50px;
-    background-repeat: no-repeat;
-}
-.slider__scrollto-icon--black{
-    background-image: url(../images/icons/slider__scrollto-icon-black.png);
-}
-.slider__scrollto-icon--white{
-    background-image: url(../images/icons/slider__scrollto-icon-white.png);
-}
 
 @media (min-width: 960px) {
     .slider{
@@ -326,9 +342,6 @@ body > section{
     .slider__btn--large{
         padding: 20px 50px;
     }
-     .slider__scrollto{
-         display: block;
-     }
 }
 /*  03 - Slider end  */
 
@@ -503,22 +516,3 @@ body > section{
 
 
 
-
-
-/* Retina-specific stuff here */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-    .slider__scrollto-icon--black{
-        background-image: url(../images/icons/slider__scrollto-icon-black-x2.png);
-    }
-    .slider__scrollto-icon--white{
-        background-image: url(../images/icons/slider__scrollto-icon-white-x2.png);
-    }
-}
-
-
-
-
-/*  0x - Animations  */
-    @-webkit-keyframes scrollto-pulse {from {bottom: 20px;}to {bottom: 30px;}}
-    @keyframes scrollto-pulse {from {bottom: 20px;}to {bottom: 30px;}}
-/*  0x - Animations end  */
