@@ -38,3 +38,16 @@ menu_close.addEventListener("click", function(event) {
         menu_open.classList.add("main-header__navigation-item--active");
     }
 });
+
+$(document).keydown(function(e) {
+    if( e.keyCode === 27 ) {
+        if (!menu_popup.classList.contains("main-header__menu--closed")) {
+            menu_popup.classList.add("main-header__menu--closed");   
+    
+            menu_close.classList.remove("main-header__navigation-item--active");
+            menu_open.classList.add("main-header__navigation-item--active");
+        }
+    }
+});
+
+
