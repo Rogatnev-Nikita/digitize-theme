@@ -1,8 +1,12 @@
 // slideScroll
 $(document).ready(function() {
-    $('#fullpage').fullpage({
-        scrollBar: true
-    });
+    if ($(window).width() > 960) {
+        $('#fullpage').fullpage({
+            'scrollBar': true,
+            'navigation': true,
+            'afterLoad': function(anchorLink, index){}
+        });
+    }
 });
 
 $(document).on('click', '.scroll-to-next', function(){
