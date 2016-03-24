@@ -13,16 +13,20 @@ $(document).ready(function() {
 
 
 
+
+
     // portfolio]
-    $('.portfolio__item-info').hide()
+    $('.portfolio__item-text').hide()
     $('.portfolio__item').mouseenter(function() {
-        $(this).find('.portfolio__item-info').fadeIn(300);
+        $(this).find('.portfolio__item-text').fadeIn(300);
         $(this).css("cursor", "pointer");
     });
 
     $('.portfolio__item').mouseleave(function() {
-        $(this).find('.portfolio__item-info').fadeOut(300)
+        $(this).find('.portfolio__item-text').fadeOut(300)
     });
+
+
 
 
 
@@ -42,8 +46,7 @@ $(document).ready(function() {
             menu_btn.classList.add("main-header__navigation-item--active");
         }
     });
-
-
+    // close menu with esc
     $(document).keydown(function(e) {
         if (e.keyCode === 27) {
             if (menu_popup.classList.contains("main-header__menu--opened")) {
@@ -52,6 +55,15 @@ $(document).ready(function() {
             }
         }
     });
+
+
+
+
+
+
+
+
+
 
 
 });
