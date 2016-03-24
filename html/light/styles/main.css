@@ -345,6 +345,10 @@ a:hover{
 }
 
 @media (min-width: 960px) {
+    .main-header{
+        width: 50%;
+        padding-right: 0;
+    }
     .main-header__menu-link{
         font-size: 45px;
     }
