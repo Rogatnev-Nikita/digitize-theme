@@ -593,9 +593,15 @@ a:hover{
     .services__item{
         width: 50%;
         height: 50vh;
-        max-height: 100%;
         padding: 0 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         border: 0;
+    }
+    .services__item > *{
+        outline:1px solid red;    
     }
     .services__item:nth-child(1){
         border-right: 1px solid rgba(0, 0, 0, 0.2);
@@ -624,10 +630,6 @@ a:hover{
     }
 }
 /*  04- Services end  */
-
-
-
-
 
 
 
@@ -671,7 +673,6 @@ a:hover{
     font-size: 40px;
 }
 
-
 .portfolio__items{
     width: 100%;
     box-sizing: border-box;    
@@ -692,7 +693,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
+
     outline: 1px solid green;
 }
 .portfolio__item-info{
@@ -707,14 +708,12 @@ a:hover{
     color: white;
     background:rgba(0, 0, 0, 0.6);
 }
-
 .portfolio__line{
     width: 15%;
     height: 1px;
     margin: 10px auto;
     background-color: white;
 }
-
 @media (min-width: 960px) {
     .portfolio{
         height: 100vh;
@@ -734,8 +733,7 @@ a:hover{
         height: 25vh;
         margin-bottom: 0;
         padding:0;
-    }
-    
+    }   
 }
 /* Retina-specific stuff here */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
@@ -781,11 +779,3 @@ a:hover{
     }
 }
 /*  0x - Footer end  */
-
-
-
-
-
-
-
-
