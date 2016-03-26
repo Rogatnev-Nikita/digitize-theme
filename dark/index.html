@@ -14,7 +14,7 @@
 	<!-- HEADER -->
 	<header class="main-header">
 		<div class="main-header__logo">
-			<a href="./" class="main-header__logo-link"> <img src="http://placehold.it/300x130" class="main-header__logo-image" width="300" height="130" alt="logo"> </a>
+			<a href="./" class="main-header__logo-link"> <img src="./images/main-header/logo.png" class="main-header__logo-image" width="300" height="130" alt="logo"> </a>
 		</div>
 		<div class="main-header__navigation"> <a class="main-header__navigation-item"><span></span></a> </div>
 		<ul class="main-header__menu">
@@ -42,9 +42,11 @@
 		<section class="section">
 			<div class="intro" id="intro">
 				<div class="intro__item">
-					<h1 class="intro__heading">WE ARE DIGITAL AGENCY</h1>
+					<h1 class="intro__heading">WE ARE <span id="intro__changer">incredible</span> AGENCY</h1>
 					<p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>incid idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-					<a href="#" class="intro__btn intro__btn--medium">Purchase Now</a> </div>
+					<a href="#" class="intro__btn intro__btn--medium">Purchase Now</a>
+                </div>
+                <div class="intro__mouse"></div>
 			</div>
 		</section>
 		<!-- SECTION intro END -->
@@ -53,27 +55,32 @@
 		<section class="section">
 			<div class="about-us" id="about-us">
 				<div class="about-us__text">
-					<h2>We Are Smart Creative Agency</h2>
+					<h2 class="about-us__heading">We Are Smart Creative Agency</h2>
+					<div class="about-us__line"></div>
 					<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
 				</div>
-				<div class="about-us__people"> </div>
 				<div class="about-us__skills">
-					<div class="about-us__skills-item"> <i class="about-us__icon fa fa-camera"></i>
-						<h2 class="about-us__heading">VIDEO PRODUCTION</h2>
-						<div class="about-us__line"></div>
-						<p class="about-us__text">Pellentesque massa quam, pharetra sit amet odio vitae, ornare fermentum</p> <a href="#" class="about-us__btn about-us__btn--medium">Some link</a> </div>
-					<div class="about-us__skills-item"> <i class="about-us__icon fa fa-code"></i>
-						<h2 class="about-us__heading">WEBSITE DESIGN</h2>
-						<div class="about-us__line"></div>
-						<p class="about-us__text">Pellentesque massa quam, pharetra sit amet odio vitae, ornare fermentum</p> <a href="#" class="about-us__btn about-us__btn--medium">Some link</a> </div>
-					<div class="about-us__skills-item"> <i class="about-us__icon fa fa-gamepad"></i>
-						<h2 class="about-us__heading">GAME DESIGN</h2>
-						<div class="about-us__line"></div>
-						<p class="about-us__text">Pellentesque massa quam, pharetra sit amet odio vitae, ornare fermentum</p> <a href="#" class="about-us__btn about-us__btn--medium">Some link</a> </div>
-					<div class="about-us__skills-item"> <i class="about-us__icon fa fa-rocket"></i>
-						<h2 class="about-us__heading">STRATEGIC BRANDING</h2>
-						<div class="about-us__line"></div>
-						<p class="about-us__text">Pellentesque massa quam, pharetra sit amet odio vitae, ornare fermentum</p> <a href="#" class="about-us__btn about-us__btn--medium">Some link</a> </div>
+					<a href="#" class="about-us__skills-item">
+                        <i class="about-us__icon fa fa-camera"></i>
+						<h2 class="about-us__skills-heading">VIDEO PRODUCTION</h2>
+						<span>66 projects</span>
+				    </a>
+					<a href="#" class="about-us__skills-item"> 
+                        <i class="about-us__icon fa fa-code"></i>
+						<h2 class="about-us__skills-heading">WEBSITE DESIGN</h2>
+						<span>187 projects</span>
+				    </a>
+					<a href="#" class="about-us__skills-item">
+                        <i class="about-us__icon fa fa-gamepad"></i>
+						<h2 class="about-us__skills-heading">GAME DESIGN</h2>
+						<span>75 projects</span>
+				    </a>
+					<a href="#" class="about-us__skills-item">
+                        <i class="about-us__icon fa fa-rocket"></i>
+						<h2 class="about-us__skills-heading">BRANDING</h2>
+						<span>194 projects</span>
+				    </a>
+				<div class="about-us__people"> </div>
 				</div>
 			</div>
 		</section>
@@ -134,8 +141,7 @@
 		<!-- CONTACT -->
 		<section class="section">
             <div class="contact">
-                <div class="contact__map" id="map">
-                </div>
+                <div class="contact__map" id="map"></div>
                 <div class="contact__form">
                     <form id="form">
                         <h2 class="form__heading">GET IN TOUCH</h2>
@@ -157,11 +163,6 @@
 		</section>
 		<!-- CONTACT END-->
 
-		<!-- SECTION  -->
-		<div class="scroll-to-next">
-			<a class="scroll-to-next__icon scroll-to-next__icon--white"></a>
-		</div>
-		<!-- SECTION  -->
 
 	</main>
 	<!-- MAIN CONTENTS -->

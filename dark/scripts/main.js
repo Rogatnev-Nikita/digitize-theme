@@ -8,7 +8,7 @@ $(document).ready(function() {
             'afterLoad': function(anchorLink, index) {}
         });
     }
-    $(document).on('click', '.scroll-to-next', function() {
+    $(document).on('click', '.intro__mouse', function() {
         $.fn.fullpage.moveSectionDown();
     });
 
@@ -44,6 +44,22 @@ $(document).ready(function() {
         }
     });
     
+
+// intro page word change intro__changer
+(function(){
+    var words = [
+        'digital',
+        'awesome',
+        'cool',
+        'fantastic'
+        ], i = 0;
+    setInterval(function(){
+        $('#intro__changer').fadeOut(function(){
+            $(this).html(words[i=(i+1)%words.length]).fadeIn();
+        });
+    }, 2000);
+        
+})();
     
     
     
