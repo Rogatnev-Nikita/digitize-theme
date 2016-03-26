@@ -153,6 +153,8 @@ textarea:focus {
 .main-header__navigation-item--active {
     display: block;
 }
+
+
 .main-header__menu {
     display: none;
     position: fixed;
@@ -167,13 +169,14 @@ textarea:focus {
     list-style-type: none;
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: center;
     z-index: 3;
+    
 }
 .main-header__menu--opened {
     display: flex;
-    background: rgba(0, 0, 0, 0.7);
-    -webkit-transition-duration: 2s;
-    transition-duration: 2s;
+    background: rgba(0, 0, 0, 0.8);
+
 }
 .main-header__menu-item {
     width: 100%;
@@ -183,32 +186,25 @@ textarea:focus {
     line-height: 1;
 }
 .main-header__menu-link {
+    display: inline;
     margin: 0;
     padding: 0;
     font-size: 25px;
     color: #ffffff;
     opacity: 1;
 }
-.main-header__menu-link:hover {
-    opacity: 0.5;
+.main-header__menu-link:hover{
+    opacity: 0.6;
+    border-bottom: 2px solid #ffffff;
 }
+
 .main-header__menu-link:active {
-    opacity: 0.5;
+
 }
-.main-header__menu-item:first-child {
-    justify-content: flex-end;
+.main-header__menu-link--active{
+    border-bottom: 2px solid #ffffff;
 }
-.main-header__menu-item:first-child,
-.main-header__menu-item:last-child {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-.main-header__menu-item--social {
-    flex: 0 1 auto;
-    justify-content: center;
-}
+
 .main-header__social-menu-item {
     box-sizing: border-box;
     width: 46px;
@@ -226,7 +222,11 @@ textarea:focus {
     color: #000000;
     background: #ffffff;
 }
-.main-header__social-menu-item:active {} @media (min-width: 960px) {
+.main-header__social-menu-item:active {} 
+
+
+
+@media (min-width: 960px) {
     .main-header__logo-image {
         max-width: 300px;
     }
@@ -257,6 +257,11 @@ textarea:focus {
     }
     .main-header__menu-link {
         font-size: 45px;
+    }
+    .main-header__menu-item--social {
+        position: absolute;
+        bottom: 40px;
+        margin-left: -40px
     }
     .main-header__social-menu-item {
         margin: 0 .5em;
@@ -301,7 +306,7 @@ textarea:focus {
     color: #ffffff;
     text-transform: uppercase;
     border: 1px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .intro__btn:hover {
     color: #000000;
@@ -319,25 +324,8 @@ textarea:focus {
     display: none;
 }
 
-@keyframes scroll {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(15px);
-  }
-}
-
 
 @media (min-width: 960px) {
-    .intro {
-        background-attachment: fixed;
-    }
     .intro__heading {
         font-size: 70px;
         line-height: 1.2;
@@ -382,23 +370,24 @@ textarea:focus {
   animation-name: scroll;
   animation-iteration-count: infinite;
 }
+    .intro__mouse:hover{
+      border-color: rgba(255,255,255,1);
+    }
 
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
 }
-@-webkit-keyframes scrollto-pulse {
-    from {
-        bottom: 20px;
-    }
-    to {
-        bottom: 30px;
-    }
-}
-@keyframes scrollto-pulse {
-    from {
-        bottom: 20px;
-    }
-    to {
-        bottom: 30px;
-    }
+
 }
 /*  03 - intro end  */
 
@@ -443,6 +432,7 @@ textarea:focus {
 .about-us__heading{
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-size: 34px;
 }
 .about-us__text{
     box-sizing: border-box;
@@ -464,10 +454,6 @@ textarea:focus {
     font-size: 70px;
     margin-bottom: 20px;
 }
-.about-us__heading {
-    margin-bottom: 20px;
-    font-size: 34px;
-}
 .about-us__line {
     width: 15%;
     height: 1px;
@@ -485,7 +471,7 @@ textarea:focus {
     background: rgba(255, 255, 255, 1);
     text-transform: uppercase;
     border: 1px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .about-us__btn:hover {
     color: #ffffff;
@@ -523,11 +509,10 @@ textarea:focus {
     }
     .about-us__skills-item {
         width: 25%;
-        text-align: center;
         outline: 1px solid #ffffff;
     }
     .about-us__skills-item:hover {
-        background: rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.1);
     }
     .about-us__icon {
         font-size: 60px;
@@ -602,8 +587,11 @@ textarea:focus {
 }
 .portfolio__link {
     margin-top: 20px;
-    color: #ffffff;
+    color: rgba(255,255,255, 1);
     font-size: 0.7em;
+}
+.portfolio__link:hover {
+    color: rgba(255,255,255, 0.6);
 }
 @media (min-width: 960px) {
     .portfolio {
@@ -652,6 +640,7 @@ textarea:focus {
     padding: 10px;
     box-sizing: border-box;
     border: 0;
+       border-radius: 3px;
     color: #999999;
 }
 .contact__form textarea {
@@ -661,6 +650,7 @@ textarea:focus {
     padding: 10px;
     box-sizing: border-box;
     border: 0;
+    border-radius: 3px;
     color: #999999;
     resize: none;
     font-size: 14px;
@@ -676,7 +666,9 @@ textarea:focus {
     color: #ffffff;
 }
 .contact__form button:hover {
-
+    background: #ffffff;
+    border-color: rgba(22, 24, 28, 1);
+    color: #000000;
 }
 .contact__form input.error {
     border: 1px solid red;

@@ -140,7 +140,8 @@ function initMap() {
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 18,
-    center: myLatLng
+    center: myLatLng,
+    disableDefaultUI: true
   });
 
   var marker = new google.maps.Marker({
