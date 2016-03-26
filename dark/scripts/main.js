@@ -8,9 +8,8 @@ $(document).ready(function() {
             'afterLoad': function(anchorLink, index) {}
         });
     }
-    $(document).on('click', '.intro__mouse', function() {
-        $.fn.fullpage.moveSectionDown();
-    });
+    $(document).on('click', '.intro__mouse', function() {$.fn.fullpage.moveSectionDown();});
+    $(document).on('click', '.about-us__btn', function() {$.fn.fullpage.moveSectionDown();});
 
 
 
