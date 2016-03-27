@@ -73,6 +73,7 @@ http://rogatnev-nikita.github.io/digitize-theme/html/
     The images included in the template are for demonstration purposes only.<br>
       <ul>
         <li>images/intro/intro.jpg - (https://picjumbo.com/webdesign-work-in-progress/)
+        <li>images/blog/intro--blog.jpg.jpg - (https://picjumbo.com/office-work-things/)
         <li>images/portfolio/portfolio__image--1.gif - (https://dribbble.com/shots/2038429-Acorns-Security-Visualization)</li>
         <li>images/portfolio/portfolio__image--2.gif - (https://dribbble.com/shots/999246-Website-GIF)</li>
         <li>images/portfolio/portfolio__image--3.gif - (https://dribbble.com/shots/1008912-UX-mag-redesign-GIF)</li>
