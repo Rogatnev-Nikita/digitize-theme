@@ -31,29 +31,29 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 <h4>Sources & Credits</h4>
 <ul>
   <li>
-    <strong>jquery.fullPage.js</strong>
+    <strong>jquery.fullPage.js</strong><br>
     normalize.css v2.6.6<br>
     Copyright © alvarotrigo.com - A project by Alvaro Trigol<br>
     Licensed under MIT (https://github.com/alvarotrigo/fullPage.js)
   </li>
   <li>
-    <strong>Font Awesome</strong>
+    <strong>Font Awesome</strong><br>
     font-awesome.min.css v4.5.0<br>
     Copyright © Dave Gandy<br>
     Licensed under MIT (http://fontawesome.io/license/)
   </li>                
   <li>
-    <strong>jQuery</strong>
+    <strong>jQuery</strong><br>
     jquery.min.js v3.0.0-beta1<br>
     Licensed under MIT (https://jquery.org/license/)
   </li>
   <li>
-    <strong>Fonts by Google Webfonts</strong>
+    <strong>Fonts by Google Webfonts</strong><br>
     Montserrat (https://www.google.com/fonts/specimen/Montserrat)
   </li>
   <li>
-    <strong>Images</strong>
-    <p>The images included in the template are for demonstration purposes only.
+    <strong>Images</strong><br>
+    <p>The images included in the template are for demonstration purposes only.<br>
       <ul>
         <li>images/intro/intro.jpg - (https://picjumbo.com/webdesign-work-in-progress/)
         <li>images/portfolio/portfolio__image--1.gif - (https://dribbble.com/shots/2038429-Acorns-Security-Visualization)</li>
