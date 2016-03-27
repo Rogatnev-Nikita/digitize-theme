@@ -14,7 +14,6 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 <li>Well-documented</li>
 <li>SEO friendly</li>
 <li>Google Fonts Support</li>
-<li>Working PHP Contact Form</li>
 </ul>
 
 <h4>Pages</h4>
@@ -30,7 +29,7 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 <ul>
 <li>High Resolution: Yes</li>
 <li>Compatible Browsers: IE11, Firefox, Safari, Opera, Chrome, Edge</li>
-<li>Files Included: PHP Files, HTML Files, CSS Files, JS Files</li>
+<li>Files Included: HTML Files, CSS Files, JS Files, demo images</li>
 <li>Columns: 4+</li>
 <li>Documentation: Well Documented</li>
 <li>Layout: Responsive</li>
