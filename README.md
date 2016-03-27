@@ -7,7 +7,6 @@ http://rogatnev-nikita.github.io/digitize-theme/html/
 <ul>
   <li>Minimal</li>
   <li>Universal & Multi-purpose</li>
-  <li>Dark and light modes</li>
   <li>Retina ready</li>
   <li>Fully responsive</li>
   <li>HTML5 & CSS3</li>
@@ -16,6 +15,23 @@ http://rogatnev-nikita.github.io/digitize-theme/html/
   <li>SEO friendly</li>
   <li>Google Fonts Support</li>
 </ul>
+
+<h4>File structure</h4>
+    +-- fonts /
+    ¦    +-- all fonts used
+    +-- images /
+    ¦    +-- all images used
+    +-- styles /
+    ¦    +-- main.css
+    +-- scripts /
+    ¦	+-- jquery.fullPage.js
+    ¦	+-- jquery.js
+    ¦	+-- main.js
+    +-- 404.html
+    +-- blog.html
+    +-- index.html
+    +-- robots.txt
+    +-- typography.html
 
 <h4>Summary</h4>
 <ul>
