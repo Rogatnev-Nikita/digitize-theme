@@ -506,7 +506,7 @@ textarea:focus {
 /* For retina */
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
-    .intro {
+    .about-us {
         background-image: url(../images/about-us/about-us-x2.jpg);
     }
 }
@@ -597,16 +597,6 @@ textarea:focus {
         background-size: auto;
     }
 }
-/* For retina */
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-    .portfolio__image--1 {
-        background: #1b233d url(../images/portfolio/portfolio__image--1-x2.jpg);
-    }
-    .portfolio__image--3 {
-        background: #f3ad50 url(../images/portfolio/portfolio__image--3-x2.jpg);
-    }
-}
 /* Portfolio item page */
 .portfolio-item {
     width: 100%;
@@ -645,6 +635,13 @@ textarea:focus {
     .portfolio-item__description p{
         padding:0 20%;
         text-align: center;
+    }
+}
+/* For retina */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .about-us {
+        background-image: url(../images/portfolio/portfolio-x2.png);
     }
 }
 
@@ -938,6 +935,13 @@ span.error:before {
         margin: 20px 15px;
     }
 }
+/* For retina */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .typography {
+        background-image: url(../images/typography/typography-x2.png);
+    }
+}
 
 /* ------------------------------------------ */
 /*             09 - 404 PAGE
@@ -966,6 +970,13 @@ span.error:before {
     font-size: 34px;
     text-transform: uppercase;
 }
+/* For retina */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .not-found {
+        background-image: url(../images/not-found/not-found-x2.png);
+    }
+}
 
 /* ------------------------------------------ */
 /*             10 - BLOG PAGE
@@ -981,7 +992,7 @@ span.error:before {
     width: 100%;
     padding: 60px 15px;
     box-sizing: border-box;
-    background: url(../images/typography/typography.png);
+    background: url(../images/blog/blog.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1023,7 +1034,16 @@ span.error:before {
         height: auto;
     }
 }
-
+/* For retina */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .intro--blog {
+        background-image: url(../images/intro--blog/intro--blog-x2.jpg);
+    }
+    .blog-item {
+        background-image: url(../images/blog/blog-x2.png);
+    }
+}
 
 
 
