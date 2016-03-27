@@ -543,16 +543,16 @@ textarea:focus {
     width: 100%;
 }
 .portfolio__image--1 {
-    background: #1b233d url(http://www.plasticbcn.com/assets/home/fcb-megastore_landscape.jpg);
+    background: #1b233d url(../images/portfolio/portfolio__image--1.jpg);
 }
 .portfolio__image--2 {
-    background: #e9455f url(http://www.plasticbcn.com/assets/home/afashion_portrait.jpg);
+    background: #e9455f url(../images/portfolio/portfolio__image--2.jpg);
 }
 .portfolio__image--3 {
-    background: #f3ad50 url(http://www.plasticbcn.com/assets/home/desigual-look-book_landscape.jpg);
+    background: #f3ad50 url(../images/portfolio/portfolio__image--3.jpg);
 }
 .portfolio__image--4 {
-    background: #e9455f url(http://www.plasticbcn.com/assets/home/afashion_portrait.jpg);
+    background: #e9455f url(../images/portfolio/portfolio__image--2.jpg);
 }
 .portfolio__image {
     background-repeat: no-repeat;
