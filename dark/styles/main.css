@@ -1,24 +1,25 @@
 /*
-Template Name: 
+Template Name: Digitize HTML Template
 Author: Rogatnev Nikita
 Version: 1.0.0
-Tags: 
+Tags: clean, minimal, creative, modern, responsive, mobile, jquery, html5, css3, contact form, personal, business, corporate, agency, portfolio, designer, freelancer, photographer, universal
 */
+
 /* ------------------------------------------ */
 /*             TABLE OF CONTENTS
 /* ------------------------------------------ */
-/*  01 - General & Basic Styles  */
-/*  02 - Header  */
-/*  03 - intro  */
-/*  04 - about-us  */
-/*  05 - work  */
-/*  06 - team  */
-/*  07 - join team  */
-/*  08 - blog  */
-/*  09 - contact  */
-/*  01 - General & Basic Styles  */
-/* font-family: "montserrat"; */
+/*  00 - FONTS  */
+/*  01 - GENERAL STYLES  */
+/*  02 - HEADER  */
+/*  03 - INTRO  */
+/*  04 - ABOUT US  */
+/*  05 - PORTFOLIO  */
+/*  06 - CONTACT  */
+/*  07 - DOTS NAVIGATION  */
 
+/* ------------------------------------------ */
+/*             00 - FONTS
+/* ------------------------------------------ */
 @font-face {
     font-family: "montserrat";
     src: url("../fonts/montserrat/montserrat.eot");
@@ -26,8 +27,6 @@ Tags:
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "montserrat-bold"; */
-
 @font-face {
     font-family: "montserrat-bold";
     src: url("../fonts/montserrat-bold/montserrat-bold.eot");
@@ -35,6 +34,10 @@ Tags:
     font-style: normal;
     font-weight: normal;
 }
+
+/* ------------------------------------------ */
+/*             01 - GENERAL STYLES
+/* ------------------------------------------ */
 body {
     font: 16px/1.5 "montserrat", "Arial", sans-serif;
     margin: 0;
@@ -78,10 +81,10 @@ textarea:focus {
     width: 100%;
     height: auto;
 }
-/*  01 - General & Basic Styles end  */
 
-/*  02 - Header  */
-
+/* ------------------------------------------ */
+/*             02 - HEADER
+/* ------------------------------------------ */
 .main-header {
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +112,7 @@ textarea:focus {
     justify-content: flex-end;
     z-index: 4;
 }
+/* Burger menu */
 .main-header__navigation-item {
     padding: 10px 35px 16px 0px;
     cursor: pointer;
@@ -153,8 +157,7 @@ textarea:focus {
 .main-header__navigation-item--active {
     display: block;
 }
-
-
+/* Popup menu */
 .main-header__menu {
     display: none;
     position: fixed;
@@ -171,12 +174,10 @@ textarea:focus {
     flex-wrap: nowrap;
     justify-content: center;
     z-index: 3;
-    
 }
 .main-header__menu--opened {
     display: flex;
     background: rgba(0, 0, 0, 0.8);
-
 }
 .main-header__menu-item {
     width: 100%;
@@ -193,18 +194,13 @@ textarea:focus {
     color: #ffffff;
     opacity: 1;
 }
-.main-header__menu-link:hover{
+.main-header__menu-link:hover {
     opacity: 0.6;
     border-bottom: 2px solid #ffffff;
 }
-
-.main-header__menu-link:active {
-
-}
-.main-header__menu-link--active{
+.main-header__menu-link--active {
     border-bottom: 2px solid #ffffff;
 }
-
 .main-header__social-menu-item {
     box-sizing: border-box;
     width: 46px;
@@ -222,10 +218,6 @@ textarea:focus {
     color: #000000;
     background: #ffffff;
 }
-.main-header__social-menu-item:active {} 
-
-
-
 @media (min-width: 960px) {
     .main-header__logo-image {
         max-width: 300px;
@@ -267,9 +259,10 @@ textarea:focus {
         margin: 0 .5em;
     }
 }
-/*  02 - Header end  */
-/*  03 - intro  */
 
+/* ------------------------------------------ */
+/*             03 - INTRO
+/* ------------------------------------------ */
 .intro {
     display: flex;
     align-items: center;
@@ -278,7 +271,6 @@ textarea:focus {
     height: 100vh;
     z-index: 1;
     position: relative;
-
     background: url(../images/intro/intro.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -318,13 +310,9 @@ textarea:focus {
     color: #000000;
     cursor: pointer;
 }
-
-
 .intro__mouse {
     display: none;
 }
-
-
 @media (min-width: 960px) {
     .intro__heading {
         font-size: 70px;
@@ -343,72 +331,59 @@ textarea:focus {
     .intro__btn--large {
         padding: 20px 50px;
     }
-    
     .intro__mouse {
-  position: absolute;
-  display: block;
-    bottom: 20px;
-    left: 50%;
-  width: 30px;
-  height: 55px;
-  border-radius: 30px;
-  border: 3px solid rgba(255,255,255,0.6);
-  transition: border-color .2s ease-in;
-}
-
-.intro__mouse:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: 5px;
-  left: 12px;
-  width: 6px;
-  height: 12px;
-  border-radius: 8px;
-  background: #ffffff;
-  animation-duration: 2s;
-  animation-name: scroll;
-  animation-iteration-count: infinite;
-}
-    .intro__mouse:hover{
-      border-color: rgba(255,255,255,1);
+        position: absolute;
+        display: block;
+        bottom: 20px;
+        left: 50%;
+        width: 30px;
+        height: 55px;
+        border-radius: 30px;
+        border: 3px solid rgba(255, 255, 255, 0.6);
+        transition: border-color .2s ease-in;
     }
-
-@keyframes scroll {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(15px);
-  }
+    .intro__mouse:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 5px;
+        left: 12px;
+        width: 6px;
+        height: 12px;
+        border-radius: 8px;
+        background: #ffffff;
+        animation-duration: 2s;
+        animation-name: scroll;
+        animation-iteration-count: infinite;
+    }
+    .intro__mouse:hover {
+        border-color: rgba(255, 255, 255, 1);
+    }
+    @keyframes scroll {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        100% {
+            opacity: 0;
+            transform: translateY(15px);
+        }
+    }
+}
+/* For retina */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .intro {
+        background-image: url(../images/intro/intro-x2.jpg);
+    }
 }
 
-}
-/*  03 - intro end  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  04- about-us  */
-
+/* ------------------------------------------ */
+/*             04 - ABOUT US
+/* ------------------------------------------ */
 .about-us {
     width: 100%;
     max-width: 100%;
@@ -416,25 +391,21 @@ textarea:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content:center;
+    align-content: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-    
-    
     background: url(../images/about-us/about-us.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    
-
 }
-.about-us__heading{
+.about-us__heading {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-size: 34px;
 }
-.about-us__text{
+.about-us__text {
     box-sizing: border-box;
     padding: 0 15px 40px;
 }
@@ -461,35 +432,34 @@ textarea:focus {
     background-color: #ffffff;
 }
 .about-us__text {
-        text-align: center;
+    text-align: center;
 }
 .about-us__btn {
     display: none;
 }
-    
 @media (min-width: 960px) {
     .about-us {
         height: 100vh;
         padding: 0;
     }
-    .about-us__text{
+    .about-us__text {
         min-width: 100%;
         margin: 0 auto 40px;
     }
-    .about-us__line{
+    .about-us__line {
         width: 80px;
-        margin:0 auto 20px;
+        margin: 0 auto 20px;
         height: 1px;
         background: #ffffff;
     }
-    .about-us__text{
+    .about-us__text {
         padding-top: 0;
     }
-    .about-us__text p{
+    .about-us__text p {
         margin: 0 auto;
         max-width: 50%;
     }
-    .about-us__skills{
+    .about-us__skills {
         margin: 0 auto;
         width: 80%;
     }
@@ -503,41 +473,44 @@ textarea:focus {
     .about-us__icon {
         font-size: 60px;
     }
-.about-us__btn {
-    display: block;
-    margin: 80px auto 0;
-    padding: 10px 0;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    text-transform: uppercase;
-    border-radius: 3px;
-}
-.about-us__btn:hover {
-    color: #000000;
-    background: rgba(255, 255, 255, 1);
-}
-.about-us__btn:active {
-    background: rgba(255, 255, 255, 0.8);
-    color: #000000;
-}
-.about-us__btn--small {
+    .about-us__btn {
+        display: block;
+        margin: 80px auto 0;
+        padding: 10px 0;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        text-transform: uppercase;
+        border-radius: 3px;
+    }
+    .about-us__btn:hover {
+        color: #000000;
+        background: rgba(255, 255, 255, 1);
+    }
+    .about-us__btn:active {
+        background: rgba(255, 255, 255, 0.8);
+        color: #000000;
+    }
+    .about-us__btn--small {
         padding: 10px 25px;
     }
-.about-us__btn--medium {
+    .about-us__btn--medium {
         padding: 15px 40px;
     }
-.about-us__btn--large {
+    .about-us__btn--large {
         padding: 20px 50px;
     }
 }
+/* For retina */
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     .intro {
         background-image: url(../images/about-us/about-us-x2.jpg);
     }
 }
-/*  04- about-us end  */
 
+/* ------------------------------------------ */
+/*             05 - PORTFOLIO
+/* ------------------------------------------ */
 .portfolio {
     overflow: hidden;
     width: 100%;
@@ -583,15 +556,15 @@ textarea:focus {
 .portfolio__category {
     font-size: 14px;
     display: block;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 .portfolio__link {
     margin-top: 20px;
-    color: rgba(255,255,255, 1);
+    color: rgba(255, 255, 255, 1);
     font-size: 0.7em;
 }
 .portfolio__link:hover {
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 @media (min-width: 960px) {
     .portfolio {
@@ -601,8 +574,26 @@ textarea:focus {
         height: 100vh;
     }
 }
-/*  0x - Footer  */
+/* For retina */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .portfolio__image--1 {
+        background: #1b233d url(../images/portfolio/portfolio__image--1-x2.jpg);
+    }
+    .portfolio__image--2 {
+        background: #e9455f url(../images/portfolio/portfolio__image--2-x2.jpg);
+    }
+    .portfolio__image--3 {
+        background: #f3ad50 url(../images/portfolio/portfolio__image--3-x2.jpg);
+    }
+    .portfolio__image--4 {
+        background: #e9455f url(../images/portfolio/portfolio__image--2-x2.jpg);
+    }
+}
 
+/* ------------------------------------------ */
+/*             06 - HEACONTACTDER
+/* ------------------------------------------ */
 .contact {
     width: 100%;
     box-sizing: border-box;
@@ -640,7 +631,7 @@ textarea:focus {
     padding: 10px;
     box-sizing: border-box;
     border: 0;
-       border-radius: 3px;
+    border-radius: 3px;
     color: #999999;
 }
 .contact__form textarea {
@@ -681,7 +672,7 @@ span.error {
     font-size: 14px;
 }
 span.error:before {
-    font-family:"FontAwesome";
+    font-family: "FontAwesome";
     content: "\f071";
     margin-right: 10px;
     font-size: 14px;
@@ -731,9 +722,10 @@ span.error:before {
         width: 50%;
     }
 }
-/*  0x - Footer end  */
-/*  Scroll right menu  */
 
+/* ------------------------------------------ */
+/*             07 - DOTS NAVIGATION
+/* ------------------------------------------ */
 #fullpage-nav {
     position: fixed;
     z-index: 2;
@@ -793,4 +785,3 @@ span.error:before {
     height: 10px;
     margin: -5px 0px 0px -5px;
 }
-/*  Scroll right menu end  */
