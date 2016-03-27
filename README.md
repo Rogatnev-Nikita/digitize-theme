@@ -53,7 +53,7 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
   </li>
   <li>
     <strong>Images</strong><br>
-    <p>The images included in the template are for demonstration purposes only.<br>
+    The images included in the template are for demonstration purposes only.<br>
       <ul>
         <li>images/intro/intro.jpg - (https://picjumbo.com/webdesign-work-in-progress/)
         <li>images/portfolio/portfolio__image--1.gif - (https://dribbble.com/shots/2038429-Acorns-Security-Visualization)</li>
