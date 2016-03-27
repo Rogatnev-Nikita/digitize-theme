@@ -807,6 +807,11 @@ span.error:before {
     width: 100%;
     padding: 60px 15px;
     box-sizing: border-box;
+    background: url(../images/typography/typography.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .typography h1{
     font-size: 70px;
@@ -828,7 +833,7 @@ span.error:before {
 }
 .typography__btn {
     display: block;
-    margin: 20px 15px;
+    margin: 20px 0;
     padding: 10px 0;
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -887,6 +892,7 @@ span.error:before {
     }
     .typography__btn {
         display: inline;
+        margin: 20px 15px;
     }
 }
 
