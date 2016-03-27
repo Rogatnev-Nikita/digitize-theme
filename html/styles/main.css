@@ -16,6 +16,9 @@ Tags: clean, minimal, creative, modern, responsive, mobile, jquery, html5, css3,
 /*  05 - PORTFOLIO  */
 /*  06 - CONTACT  */
 /*  07 - DOTS NAVIGATION  */
+/*  08 - TYPOGRAPHY PAGE  */
+/*  08 - 404 PAGE  */
+/*  10 - BLOG PAGE  */
 
 /* ------------------------------------------ */
 /*             00 - FONTS
@@ -801,7 +804,7 @@ span.error:before {
 }
 
 /* ------------------------------------------ */
-/*             xx - TYPOGRAPHY PAGE
+/*             08 - TYPOGRAPHY PAGE
 /* ------------------------------------------ */
 .typography {
     width: 100%;
@@ -897,7 +900,7 @@ span.error:before {
 }
 
 /* ------------------------------------------ */
-/*             xx - 404 PAGE
+/*             09 - 404 PAGE
 /* ------------------------------------------ */
 .not-found {
     width: 100%;
@@ -923,6 +926,44 @@ span.error:before {
     font-size: 34px;
     text-transform: uppercase;
 }
+
+/* ------------------------------------------ */
+/*             10 - BLOG PAGE
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
