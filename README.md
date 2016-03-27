@@ -16,6 +16,18 @@ http://rogatnev-nikita.github.io/digitize-theme/html/
   <li>Google Fonts Support</li>
 </ul>
 
+<h4>Summary</h4>
+<ul>
+  <li>High Resolution: Yes</li>
+  <li>Compatible Browsers: IE11, Firefox, Safari, Opera, Chrome, Edge</li>
+  <li>Files Included: HTML Files, CSS Files, JS Files, demo images</li>
+  <li>Columns: 4+</li>
+  <li>Documentation: Well Documented</li>
+  <li>Layout: Responsive</li>
+  <li>Category: creative, corporate, technology</li>
+  <li>Tags: clean, minimal, creative, modern, responsive, mobile, jquery, html5, css3, contact form, personal, business, corporate, agency, portfolio, designer, freelancer, photographer, universal</li>
+</ul>
+
 <h4>File structure</h4>
     +-- fonts /
     ¦    +-- all fonts used
@@ -32,19 +44,7 @@ http://rogatnev-nikita.github.io/digitize-theme/html/
     +-- index.html
     +-- robots.txt
     +-- typography.html
-
-<h4>Summary</h4>
-<ul>
-  <li>High Resolution: Yes</li>
-  <li>Compatible Browsers: IE11, Firefox, Safari, Opera, Chrome, Edge</li>
-  <li>Files Included: HTML Files, CSS Files, JS Files, demo images</li>
-  <li>Columns: 4+</li>
-  <li>Documentation: Well Documented</li>
-  <li>Layout: Responsive</li>
-  <li>Category: creative, corporate, technology</li>
-  <li>Tags: clean, minimal, creative, modern, responsive, mobile, jquery, html5, css3, contact form, personal, business, corporate, agency, portfolio, designer, freelancer, photographer, universal</li>
-</ul>
-
+    
 <h4>Sources & Credits</h4>
 <ul>
   <li>
