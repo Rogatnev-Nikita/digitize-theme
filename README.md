@@ -21,7 +21,7 @@ http://rogatnev-nikita.github.io/digitize-theme/html/
   <li>High Resolution: Yes</li>
   <li>Compatible Browsers: IE11, Firefox, Safari, Opera, Chrome, Edge</li>
   <li>Files Included: HTML Files, CSS Files, JS Files, demo images</li>
-  <li>Columns: 4+</li>
+  <li>Columns: N/A</li>
   <li>Documentation: Well Documented</li>
   <li>Layout: Responsive</li>
   <li>Category: creative, corporate, technology</li>
