@@ -799,3 +799,107 @@ span.error:before {
     height: 10px;
     margin: -5px 0px 0px -5px;
 }
+
+/* ------------------------------------------ */
+/*             xx - TYPOGRAPHY PAGE
+/* ------------------------------------------ */
+.typography {
+    width: 100%;
+    padding: 60px 15px;
+    box-sizing: border-box;
+}
+.typography h1{
+    font-size: 70px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.typography h2{
+    margin-bottom: 20px;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.typography h2{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.typography__buttons {
+    margin-top: 50px;
+    padding: 0;
+}
+.typography__btn {
+    display: block;
+    margin: 20px 15px;
+    padding: 10px 0;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.typography__btn:hover {
+    color: #000000;
+    background: rgba(255, 255, 255, 1);
+}
+.typography__btn:active {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000000;
+}
+.typography__btn--small {
+    padding: 10px 25px;
+}
+.typography__btn--medium {
+    padding: 15px 40px;
+}
+.typography__btn--large {
+    padding: 20px 50px;
+}
+.typography__text{
+    margin-top: 50px;
+}
+.typography__text a{
+    color: rgba(255, 255, 255, 1);
+}
+.typography__text a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+.typography__icons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.typography__icons .fa{
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+@media (min-width: 960px) {
+    .typography {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .typography__btn {
+        display: inline;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
