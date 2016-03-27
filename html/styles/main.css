@@ -986,35 +986,41 @@ span.error:before {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    list-style-type: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
 }
-.blog-item img {
-    width: auto;
-    max-height: 400px;
+.blog-item__description img {
+    width: 100%;
+    height: auto;
 }
-.blog-item h1 {
-    margin-top: 40px;
+.blog-item__description h1 {
+    margin-top: 10px;
     text-transform: uppercase;
     font-size: 40px;
 }
-.blog-item h3 {
+.blog-item__description h3 {
     margin: 5px 0 20px;
     font-size: 14px;
 }
-.blog-item p {
+.blog-item__description p {
     margin-bottom: 10px;
 }
 @media (min-width: 960px) {
     .blog-item {
         height: 100vh;
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
     .blog-item__description {
+        width: 100%;
         margin: 0 auto;
         padding: 0 10%;
+        box-sizing: border-box;
+    }
+    .blog-item__description img {
+        width: 400px;
+        height: auto;
     }
 }
 
