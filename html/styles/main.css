@@ -515,26 +515,38 @@ textarea:focus {
     overflow: hidden;
     width: 100%;
 }
+.portfolio__image {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+}
 .portfolio__image--1 {
     background: #1b233d url(../images/portfolio/portfolio__image--1.jpg);
-}
-.portfolio__image--2 {
-    background: #e9455f url(../images/portfolio/portfolio__image--2.jpg);
-}
-.portfolio__image--3 {
-    background: #f3ad50 url(../images/portfolio/portfolio__image--3.jpg);
-}
-.portfolio__image--4 {
-    background: #e9455f url(../images/portfolio/portfolio__image--2.jpg);
-}
-.portfolio__image {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
-    width: 100%;
-    height: 100%;
-    min-height: 400px;
+}
+.portfolio__image--2 {
+    background: #e9455f url(../images/portfolio/portfolio__image--2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center;
+}
+.portfolio__image--3 {
+    background: #26272b url(../images/portfolio/portfolio__image--3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.portfolio__image--4 {
+    background: #f3ad50 url(../images/portfolio/portfolio__image--4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center;
 }
 .portfolio__link {
     right: 60px;
@@ -556,7 +568,7 @@ textarea:focus {
 .portfolio__category {
     font-size: 14px;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
 .portfolio__link {
     margin-top: 20px;
