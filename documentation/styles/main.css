@@ -75,12 +75,20 @@ strong {
     margin-top: 20px;
     text-transform: uppercase;
 }
-xmp{
+pre{
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: scroll;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
 }
 .autor {
     margin-top: 60px;
+}
+.copy {
+    margin-top: 60px;
+    text-align: center;
 }
 
 /* ------------------------------------------ */
