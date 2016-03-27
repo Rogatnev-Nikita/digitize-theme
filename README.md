@@ -33,7 +33,8 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 <li>Columns: 4+</li>
 <li>Documentation: Well Documented</li>
 <li>Layout: Responsive</li>
-<li>Tags: agency, creative, designer, freelancer, grid, lightbox, masonry, minimal, mobile, modern, photographer, portfolio, slider, universal</li>
+<li>Category: creative, corporate, technology</li>
+<li>Tags: clean, minimal, creative, modern, responsive, mobile, jquery, html5, css3, contact form, personal, business, corporate, agency, portfolio, designer, freelancer, photographer, universal</li>
 </ul>
 
 <h4>Credits</h4>
