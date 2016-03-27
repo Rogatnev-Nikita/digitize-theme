@@ -279,7 +279,7 @@ textarea:focus {
     z-index: 1;
     position: relative;
 
-    background: url(../images/about-us/about-us.jpg);
+    background: url(../images/intro/intro.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -421,7 +421,7 @@ textarea:focus {
     box-sizing: border-box;
     
     
-    background: url(../images/intro/intro.png);
+    background: url(../images/about-us/about-us.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
