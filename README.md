@@ -1,6 +1,6 @@
 # Digitize HTML Template
 
-Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template, suitable for freelancers, agencies and photographers. With many features and well-written code it is one of the most flexible and easy-to-use HTML templates out there.<br>
+Digitize is a minimal, multi-purpose and universal portfolio agency HTML template, suitable for freelancers, agencies and photographers. With many features and well-written code it is one of the most flexible and easy-to-use HTML templates out there.<br>
 http://rogatnev-nikita.github.io/digitize-theme/html/
 
 <h4>Features</h4>
