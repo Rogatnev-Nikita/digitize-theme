@@ -992,6 +992,10 @@ span.error:before {
     flex-wrap: nowrap;
     justify-content: center;
 }
+.blog-item img {
+    width: auto;
+    max-height: 400px;
+}
 .blog-item h1 {
     margin-top: 40px;
     text-transform: uppercase;
@@ -1010,7 +1014,7 @@ span.error:before {
     }
     .blog-item__description {
         margin: 0 auto;
-        padding: 0 20%;
+        padding: 0 10%;
     }
 }
 
