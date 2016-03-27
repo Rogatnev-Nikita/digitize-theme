@@ -12,6 +12,7 @@ Digitizeis a minimal, multi-purpose and universal portfolio agency HTML template
 <li>HTML5 & CSS3</li>
 <li>Subtle CSS3 Animations</li>
 <li>Well-documented</li>
+<li>SEO friendly</li>
 <li>Google Fonts Support</li>
 <li>Working PHP Contact Form</li>
 </ul>
